@@ -10,7 +10,7 @@ const projects = [
     kicker: 'Workforce scheduling & shift operations',
     description: 'A full-stack workforce scheduling platform evolved from a postgraduate scheduling concept inspired by real retail operations. Built around department-level rota management, employee workflows, time-off requests and controlled rota publishing, with scheduling intelligence and a staff portal currently in development.',
     stack: ['C#', 'ASP.NET Core', 'React', 'TypeScript', 'PostgreSQL', 'EF Core'],
-    live: 'https://github.com/lexxanderr/rotaland',
+    live: 'https://rotaland.vercel.app',
     repo: 'https://github.com/lexxanderr/rotaland',
     status: 'ACTIVE DEVELOPMENT',
     icon: Boxes,
