@@ -6,6 +6,17 @@ import './styles.css'
 const projects = [
   {
     index: '01',
+    title: 'RotaLand',
+    kicker: 'Workforce scheduling & shift operations',
+    description: 'A full-stack workforce scheduling platform evolved from a postgraduate scheduling concept inspired by real retail operations. Built around department-level rota management, employee workflows, time-off requests and controlled rota publishing, with scheduling intelligence and a staff portal currently in development.',
+    stack: ['C#', 'ASP.NET Core', 'React', 'TypeScript', 'PostgreSQL', 'EF Core'],
+    live: 'https://github.com/lexxanderr/rotaland',
+    repo: 'https://github.com/lexxanderr/rotaland',
+    status: 'ACTIVE DEVELOPMENT',
+    icon: Boxes,
+  },
+  {
+    index: '02',
     title: 'ReleaseGuardian',
     kicker: 'Compliance & release control platform',
     description: 'A production-style full-stack platform for controlled releases, role-based review, evidence verification and tamper-evident audit history. Features responsive case workflows, approval controls and a polished light/dark interface.',
@@ -16,7 +27,7 @@ const projects = [
     icon: ShieldCheck,
   },
   {
-    index: '02',
+    index: '03',
     title: 'ServiceFlow',
     kicker: 'Business operations platform',
     description: 'A .NET-first job and service management system for customers, work orders, assignments, status workflows and audit history. Currently being built as a production-style portfolio project.',
@@ -26,17 +37,6 @@ const projects = [
     status: 'BUILDING',
     icon: Boxes,
   },
-  {
-    index: '03',
-    title: 'Shift Scheduling',
-    kicker: 'Optimisation & mobile systems',
-    description: 'A scheduling solution developed from postgraduate research into improving rota creation and workforce allocation through a data-driven mobile workflow.',
-    stack: ['Mobile', 'Scheduling', 'Data', 'UX', 'Software Engineering'],
-    live: '#contact',
-    repo: 'https://github.com/lexxanderr',
-    status: 'CASE STUDY',
-    icon: Database,
-  }
 ]
 
 const skills = [
